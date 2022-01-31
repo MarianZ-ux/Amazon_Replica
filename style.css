@@ -1,0 +1,110 @@
+ 
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+a:link{
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+    padding-left: 15px;
+}
+
+body{
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+    font-family: 'Times New Roman', Times, sans-serif;
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    position: flex center;
+    margin: 0  auto;
+    border: 1px solid gray;
+    width: 360px;
+    padding: 10px 20px;
+}
+
+#continue {
+    width:315px;
+    height:33px;
+    font-size:14px;
+    background: goldenrod;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+input{
+    border: 1px gray;
+    border-radius: 3px;
+    border-width: 0.2px;
+    height: 25px;
+    width: 350px;
+    margin-bottom: 25px;
+}
+
+#userEmail{
+    margin-left: 15px;
+    border: 1px solid grey;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 14px;
+}
+
+#createAccount{
+    margin-top: 30px;
+    position: flex center;
+}
+
+#newAccount{
+    position: flex center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+    width: 300px;
+    height:33px;
+    font-size:12px;
+    border: 1px solid black;
+}
+
+#userPassword{
+    color: black;
+    margin-left: 15px;
+    border: 1px solid grey;
+}
+#password_span{
+    justify-content: space-between;
+    display: flex;
+    color: grey;
+}
+
+footer{
+    align-content: flex center;
+    display: flex; 
+    border: 0;
+    height: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid gray;
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+footer ul {
+    display: inline-flex center;
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-flex center;
+    font-size: 10px;
+}
+
+#special{
+    font-size: 11px;
+}
